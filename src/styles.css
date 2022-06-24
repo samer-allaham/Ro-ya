@@ -1,0 +1,32 @@
+*{
+    font-family: 'Cairo', sans-serif !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .boxes{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .course-pic{
+        height: 62vw !important;
+    }
+    .course{
+        height: 117vw !important;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 768px)  {
+    .boxes{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .course-pic{
+        height: 62vw !important;
+    }
+    .course{
+        height: 117vw !important;
+    }
+}
