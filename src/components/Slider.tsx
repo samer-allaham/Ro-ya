@@ -11,10 +11,10 @@ import Coach from './Coach'
 // import required modules
 import { Pagination } from "swiper";
 
-import coach1 from '../assests/newcoach1.jpeg';
+import coach1 from '../assests/newcoach1-min.jpeg';
 import coach2 from '../assests/mohammed.jpg';
 import coach3 from '../assests/hassan.jpg';
-import coach4 from '../assests/newcoach2.jpeg';
+import coach4 from '../assests/newcoach2-min.jpeg';
 
 
 let cardOneData = { title: " د محمد اللحام", description: "دكتوراه هندسة برمجيات خبير بادارة المشاريع وإدارة المخاطر وتحليل النظم والأنظمة الموزعة", imageSrc: coach2, badge1: "Risk mng", badge2: "Projects mng", badge3: "distributed sys", }

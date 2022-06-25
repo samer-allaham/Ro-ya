@@ -2,22 +2,22 @@ import React from 'react';
 import { Box, Heading, SimpleGrid } from '@chakra-ui/react'
 
 import Course from "../../../components/Course"
-import course1 from '../../../assests/newcourse1.jpeg';
-import course2 from '../../../assests/newcourse2.jpeg';
-import course3 from '../../../assests/newcourse11.jpeg';
-import course4 from '../../../assests/newcourse3.jpeg';
-import course5 from '../../../assests/newcourse4.jpeg';
-import course6 from '../../../assests/newcourse9.jpeg';
-import course7 from '../../../assests/newcourse5.jpeg';
-import course8 from '../../../assests/newcourse6.jpeg';
-import course9 from '../../../assests/newcourse7.jpeg';
-import course10 from '../../../assests/newcourse8.jpeg';
-import course11 from '../../../assests/newcourse10.jpeg';
-import course12 from '../../../assests/newcourse12.jpeg';
-import course13 from '../../../assests/newcourse13.jpeg';
-import course14 from '../../../assests/newcourse14.jpeg';
-import course15 from '../../../assests/newcourse15.jpeg';
-import course16 from '../../../assests/newcourse16.jpeg';
+import course1 from '../../../assests/newcourse1-min.jpeg';
+import course2 from '../../../assests/newcourse2-min.jpeg';
+import course3 from '../../../assests/newcourse11-min.jpeg';
+import course4 from '../../../assests/newcourse3-min.jpeg';
+import course5 from '../../../assests/newcourse4-min.jpeg';
+import course6 from '../../../assests/newcourse9-min.jpeg';
+import course7 from '../../../assests/newcourse5-min.jpeg';
+import course8 from '../../../assests/newcourse6-min.jpeg';
+import course9 from '../../../assests/newcourse7-min.jpeg';
+import course10 from '../../../assests/newcourse8-min.jpeg';
+import course11 from '../../../assests/newcourse10-min.jpeg';
+import course12 from '../../../assests/newcourse12-min.jpeg';
+import course13 from '../../../assests/newcourse13-min.jpeg';
+import course14 from '../../../assests/newcourse14-min.jpeg';
+import course15 from '../../../assests/newcourse15-min.jpeg';
+import course16 from '../../../assests/newcourse16-min.jpeg';
 
 
 
