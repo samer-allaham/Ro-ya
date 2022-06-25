@@ -58,6 +58,7 @@ export default function Header() {
             textAlign={useBreakpointValue({ base: 'right', md: 'left' })}
             fontWeight={600}
             fontFamily={'heading'}
+            as={"h1"}
             color={useColorModeValue('#0476d0', 'white')}>
             الرؤية المستدامة للاستشارات و التدريب
           </Text>
