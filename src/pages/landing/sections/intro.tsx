@@ -7,8 +7,8 @@ import {
     Image,
     useBreakpointValue,
 } from '@chakra-ui/react';
-import imageSrc from '../../../assests/hero.jpeg';
-import logoSrc from '../../../assests/logo.jpeg';
+import imageSrc from '../../../assests/hero2.jpg';
+import logoSrc from '../../../assests/newlogo-removebg-preview.png';
 
 
 export default function Hero() {

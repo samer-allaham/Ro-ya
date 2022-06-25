@@ -10,7 +10,7 @@ import {
   extendTheme
 } from '@chakra-ui/react';
 import Header from "./components/header"
-import Footer from './components/footer'
+import Footer from './components/Footer'
 import { Landing } from './pages/landing/landing';
 import "./styles.css"
 

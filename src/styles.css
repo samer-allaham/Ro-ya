@@ -1,32 +1,71 @@
-*{
+* {
     font-family: 'Cairo', sans-serif !important;
 }
 
-@media only screen and (max-width: 600px) {
-    .boxes{
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-    .course-pic{
-        height: 62vw !important;
-    }
-    .course{
-        height: 117vw !important;
-    }
-    
+html {
+    scroll-behavior: smooth;
+}
+
+.course {
+    display: flex !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    justify-content: space-between !important;
+    align-items: stretch !important;
 
 }
 
 
-@media only screen and (max-width: 768px)  {
-    .boxes{
+
+
+@media only screen and (max-width: 1440px) {
+    .boxes {
+        padding-left: 8vw !important;
+        padding-right: 8vw !important;
+    }
+
+    .course-pic {
+        height: 24vw !important;
+    }
+
+    .course {
+        height: 36vw !important;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .boxes {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
-    .course-pic{
+
+    .course-pic {
         height: 62vw !important;
     }
-    .course{
+
+    .course {
         height: 117vw !important;
     }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .boxes {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .course-pic {
+        height: 62vw !important;
+    }
+
+    .course {
+        height: 108vw !important;
+    }
+
+
 }

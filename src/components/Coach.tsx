@@ -16,9 +16,9 @@ interface CardProps {
     title: string;
     imageSrc: string;
     description: string;
-    badge1: string;
-    badge2: string;
-    badge3: string;
+    badge1: any;
+    badge2: any;
+    badge3: any;
 
 }
 
@@ -31,6 +31,7 @@ export default function Coach({ title, imageSrc, description, badge1, badge2, ba
                 height={"100%"}
                 bg={useColorModeValue('white', 'gray.900')}
                 boxShadow={'2xl'}
+                className='coach'
                 p={3}
                 //   rounded={'lg'}
                 textAlign={'center'}>
@@ -72,21 +73,32 @@ export default function Coach({ title, imageSrc, description, badge1, badge2, ba
                         py={1}
                         bg={useColorModeValue('gray.50', 'gray.800')}
                         fontWeight={'400'}>
-                        {badge1}
+                        {badge1?.split(' ')[0]}
+                        <br />
+
+                        {badge1?.split(' ')[1]}
                     </Badge>
                     <Badge
                         px={2}
                         py={1}
                         bg={useColorModeValue('gray.50', 'gray.800')}
                         fontWeight={'400'}>
-                        {badge2}
+                        {badge2?.split(' ')[0]}
+                        <br />
+
+                        {badge2?.split(' ')[1]}
                     </Badge>
                     <Badge
                         px={2}
                         py={1}
                         bg={useColorModeValue('gray.50', 'gray.800')}
                         fontWeight={'400'}>
-                        {badge3}
+                        {badge3.split(' ')[0]}
+                        <br />
+
+                        {badge3.split(' ')[1]}
+
+
                     </Badge>
                 </Stack>
 

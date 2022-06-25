@@ -7,6 +7,7 @@ import {
     ListItem,
     ListIcon,
     Button,
+    Link,
     useColorModeValue,
 } from '@chakra-ui/react';
 import { CheckIcon } from '@chakra-ui/icons';
@@ -37,7 +38,7 @@ export default function Course({ title, imageSrc }: CardProps) {
                     backgroundImage={imageSrc}
                     backgroundSize={'cover'}
                     backgroundPosition={'center center'}>
-                    <Text
+                    {/* <Text
                         fontSize={'sm'}
                         fontWeight={500}
                         bg={useColorModeValue('blue.50', 'blue.900')}
@@ -46,7 +47,7 @@ export default function Course({ title, imageSrc }: CardProps) {
                         color={'blue.500'}
                         rounded={'full'}>
                         BUSINESS
-                    </Text>
+                    </Text> */}
 
                 </Stack>
 
@@ -91,7 +92,9 @@ export default function Course({ title, imageSrc }: CardProps) {
                         _focus={{
                             bg: '#013761',
                         }}>
-                        اشترك الان
+                        <Link w={"100%"} href='https://docs.google.com/forms/d/e/1FAIpQLSdVxJo8fScCVTlFyaNBPlkTq_LfFLSw7NHqhJPtjH-ciKUANQ/viewform?usp=sf_link' isExternal>
+                            اشترك الان
+                        </Link>
                     </Button>
                 </Box>
             </Box>

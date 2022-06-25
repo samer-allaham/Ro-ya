@@ -59,7 +59,7 @@ export default function Header() {
             fontWeight={600}
             fontFamily={'heading'}
             color={useColorModeValue('#0476d0', 'white')}>
-            رؤية التنمية المستدامة للتدريب
+            الرؤية المستدامة للاستشارات و التدريب
           </Text>
 
 
@@ -238,37 +238,38 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: 'نبذة عن المركز',
-    href: '#',
+    label: 'نبذة عن المؤسسة',
+    href: '#intro',
   },
   {
-    label: 'خدمات المركز',
-    children: [
-      {
-        label: 'استشارات وتدريب',
-        subLabel: 'استشارات وتدريب',
-        href: '#',
-      },
-      {
-        label: 'العضويات والمدربين',
-        subLabel: 'العضويات والمدربين',
-        href: '#',
-      },
-      {
-        label: 'التنظيم والشركات',
-        subLabel: 'التنظيم والشركات',
-        href: '#',
-      },
-    ],
+    label: 'خدمات المؤسسة',
+    href: "#services"
+    // children: [
+    //   {
+    //     label: 'استشارات وتدريب',
+    //     subLabel: 'استشارات وتدريب',
+    //     href: '#',
+    //   },
+    //   {
+    //     label: 'العضويات والمدربين',
+    //     subLabel: 'العضويات والمدربين',
+    //     href: '#',
+    //   },
+    //   {
+    //     label: 'التنظيم والشركات',
+    //     subLabel: 'التنظيم والشركات',
+    //     href: '#',
+    //   },
+    // ],
   },
   {
     label: 'الدورات التدريبية',
-    href: '#',
+    href: '#courses',
 
   },
 
   {
     label: 'المدربين',
-    href: '#',
+    href: '#coaches',
   },
 ];

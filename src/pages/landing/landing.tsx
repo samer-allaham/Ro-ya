@@ -13,7 +13,7 @@ export const Landing = () => {
         <Services />
         <Courses />
         <Coaches />
-        <Blogs />
+        {/* <Blogs /> */}
     </Box>
     )
 }

@@ -2,41 +2,77 @@ import React from 'react';
 import { Box, Heading, SimpleGrid } from '@chakra-ui/react'
 
 import Course from "../../../components/Course"
-import course1 from '../../../assests/course1.jpeg';
-import course2 from '../../../assests/course2.jpeg';
-import course3 from '../../../assests/course3.jpeg';
-import course4 from '../../../assests/course4.jpeg';
-import course5 from '../../../assests/course5.jpeg';
-import course6 from '../../../assests/course6.jpeg';
-import course7 from '../../../assests/course7.jpeg';
-import course8 from '../../../assests/course8.jpeg';
-import course9 from '../../../assests/course9.jpeg';
-import course10 from '../../../assests/course10.jpeg';
-import course11 from '../../../assests/course11.jpeg';
+import course1 from '../../../assests/newcourse1.jpg';
+import course2 from '../../../assests/newcourse2.jpg';
+import course3 from '../../../assests/newcourse11.jpg';
+import course4 from '../../../assests/newcourse3.jpg';
+import course5 from '../../../assests/newcourse4.jpg';
+import course6 from '../../../assests/newcourse9.jpg';
+import course7 from '../../../assests/newcourse5.jpg';
+import course8 from '../../../assests/newcourse6.jpg';
+import course9 from '../../../assests/newcourse7.jpg';
+import course10 from '../../../assests/newcourse8.jpg';
+import course11 from '../../../assests/newcourse10.jpg';
+import course12 from '../../../assests/newcourse12.jpg';
+import course13 from '../../../assests/newcourse13.jpg';
+import course14 from '../../../assests/newcourse14.jpg';
+import course15 from '../../../assests/newcourse15.jpg';
+import course16 from '../../../assests/newcourse16.jpg';
 
 
 
+/*
+المهارات الإشرافية
+تطوير المرؤوسين
+إدارة ضغوط العمل 
+فرق العمل
+إدارة الاجتماعات 
+رسم السياسات واتخاذ القرار
+التخطيط الاستراتيجي 
+أدارة الأداء 
+إدارة المخاطر
+التفكير الإبداعي 
+نظم دعم اتخاذ القرارات
+إدارة المشاريع الاحترافية
+شبكات الحاسوب
+التسويق الإلكتروني
+تحليل النظم
+التحليل الإحصائي
 
-let cardOneData = { title: "الموارد البشرية ونظام العمل", imageSrc: course1 }
 
-let cardTwoData = { title: "الصحة والسلامة المهنية", imageSrc: course2 }
+*/
 
-let cardThreeData = { title: "السكرتارية التنفيذية وإدارة المكاتب", imageSrc: course4 }
 
-let cardFourData = { title: "إدارة المشاريع اإحترافية PMP", imageSrc: course5 }
 
-let cardFiveData = { title: "العلاقات العامة والبروتوكول", imageSrc: course7 }
+let cardOneData = { title: "المهارات الإشرافية", imageSrc: course1 }
 
-let cardSixData = { title: "المهارات المتقدمة لللموارد البشرية ونظام العمل", imageSrc: course8 }
-let cardSevenData = { title: "مهارات الوظيفة وأنماط التكامل", imageSrc: course9 }
+let cardTwoData = { title: "تطوير المرؤوسين", imageSrc: course2 }
 
-let cardEightData = { title: "سياسات التسويق الإلكتروني", imageSrc: course10 }
-let cardNineData = { title: "مهارات صناعة البخور وبيعة", imageSrc: course6 }
-let cardTenData = { title: "مركز الاتصال call center", imageSrc: course11 }
-let cardElevenData = { title: "تدريب المدربين", imageSrc: course3 }
+let cardThreeData = { title: "إدارة ضغوط العمل", imageSrc: course4 }
+
+let cardFourData = { title: "فرق العمل", imageSrc: course5 }
+
+let cardFiveData = { title: "إدارة الاجتماعات", imageSrc: course7 }
+
+let cardSixData = { title: "رسم السياسات واتخاذ القرار", imageSrc: course8 }
+let cardSevenData = { title: "التخطيط الاستراتيجي", imageSrc: course9 }
+
+let cardEightData = { title: "إدارة الأداء", imageSrc: course10 }
+let cardNineData = { title: "إدارة المخاطر", imageSrc: course6 }
+let cardTenData = { title: "التفكير الإبداعي", imageSrc: course11 }
+let cardElevenData = { title: "نظم دعم اتخاذ القرارات", imageSrc: course3 }
+
+
+let cardTwelveData = { title: "إدارة المشاريع الاحترافية", imageSrc: course12 }
+
+let cardTherteenData = { title: "شبكات الحاسوب", imageSrc: course13 }
+
+let cardFourteenData = { title: "التسويق الإلكتروني", imageSrc: course14 }
+let cardFifteenData = { title: "تحليل النظم", imageSrc: course15 }
+let cardSixteenData = { title: "التحليل الإحصائي", imageSrc: course16 }
 
 export const Courses = () => {
-    return <Box className='boxes' pt={20} pb={60} pl={700} pr={700}>
+    return <Box id='courses' className='boxes' pt={20} pb={60} pl={700} pr={700}>
         <Heading textAlign={"center"} pb={10} as='h3' size='lg'>
             الدورات التدريبية
 
@@ -54,7 +90,11 @@ export const Courses = () => {
             <Course {...cardNineData} />
             <Course {...cardTenData} />
             <Course {...cardElevenData} />
-
+            <Course {...cardTwelveData} />
+            <Course {...cardTherteenData} />
+            <Course {...cardFourteenData} />
+            <Course {...cardFifteenData} />
+            <Course {...cardSixteenData} />
         </SimpleGrid>
     </Box>
 }

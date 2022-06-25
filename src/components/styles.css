@@ -1,4 +1,7 @@
-#app { height: 100% }
+#app {
+  height: 100%
+}
+
 html,
 body {
   position: relative;
@@ -8,64 +11,107 @@ body {
 
 .swiper {
   width: 50%;
-  height: 14vw;
+  height: 16vw;
 }
 
+.course {
+  display: flex !important;
+  flex-direction: column !important;
+  align-content: center !important;
+  justify-content: space-between !important;
+  align-items: stretch !important;
+  height: 17vw !important;
+
+}
+
+
+.coach {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+
+@media only screen and (max-width: 1440px) {
+  .swiper {
+    width: 70%;
+    height: 40vw;
+    color: #013761 !important;
+
+  }
+
+  .course-pic {
+    height: 24vw !important;
+  }
+
+  .course {
+    height: 36vw !important;
+  }
+
+}
+
+
+
+@media screen and (max-width: 960) {
+  .swiper {
+    width: 70%;
+    height: 98vw;
+    color: #013761 !important;
+
+  }
+
+  .course {
+    height: 117vw !important;
+  }
+
+
+  .course-pic {
+    height: 62vw !important;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .swiper {
+    width: 70% !important;
+    height: 98vw !important;
+    color: #013761 !important;
+
+  }
+
+  .course {
+    height: 117vw !important;
+  }
+
+
+  .course-pic {
+    height: 62vw !important;
+  }
+
+}
 
 
 @media screen and (max-width: 640px) {
 
-    .swiper {
-        width: 100% !important;
-        height: 98vw !important;
+  .swiper {
+    width: 100% !important;
+    height: 133vw !important
+  }
 
-    }
+  .course {
+    height: 117vw !important;
+  }
 
-    .course{
-        height: 117vw !important;
-    }
-
-    .course-pic{
-        height: 62vw !important;
-    }
+  .course-pic {
+    height: 62vw !important;
+  }
 }
-  
-  @media screen and (max-width: 768px) {
-    .swiper {
-        width: 70% !important;
-        height: 98vw !important;
-        color: #013761 !important;
-
-        }
-    .course{
-        height: 117vw !important;
-    }
 
 
-    .course-pic{
-        height: 62vw !important;
-    }
-    
-  }
-
-
-  @media screen and (max-width: 960) {
-    .swiper {
-        width: 70%;
-        height: 98vw;
-        color: #013761 !important;
-
-        }
-    .course{
-        height: 117vw !important;
-    }
-
-
-    .course-pic{
-        height: 62vw !important;
-    }
-    
-  }
 
 
 .swiper-slide {
@@ -95,11 +141,12 @@ body {
   object-fit: cover;
 }
 
-.blog-author{
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+.blog-author {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
-.reversed{
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+
+.reversed {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
