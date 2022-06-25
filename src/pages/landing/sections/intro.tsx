@@ -42,7 +42,7 @@ export default function Hero() {
                         marginLeft={50}
                         pl={35}
                         fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-                        حلول التدريب والمدربين
+                        حلول التدريب و المدربين
                     </Text>
                     {/* <Stack direction={'row'}>
               <Button

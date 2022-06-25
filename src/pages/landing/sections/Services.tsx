@@ -11,7 +11,7 @@ import Card from '../../../components/Card';
 
 let cardOneData = { title: "التنظيم والشركات", imageSrc: imageOneSrc }
 
-let cardTwoData = { title: "العضويات والمدربين", imageSrc: imageTwoSrc }
+let cardTwoData = { title: "العضويات و المدربين", imageSrc: imageTwoSrc }
 
 let cardThreeData = { title: "استشارات وتدريب", imageSrc: imageThreeSrc }
 export const Services = () => {
