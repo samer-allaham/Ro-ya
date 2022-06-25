@@ -11,7 +11,7 @@ body {
 
 .swiper {
   width: 50%;
-  height: 16vw;
+  height: 20vw !important;
 }
 
 .course {
